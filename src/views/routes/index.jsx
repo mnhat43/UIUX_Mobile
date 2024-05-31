@@ -12,6 +12,7 @@ import Overview from 'views/pages/overview';
 import Setting from 'views/pages/settingPage/setting';
 import HelpPage from 'views/pages/help';
 import HomePage from 'views/pages/homePage';
+import LandingPage from 'views/pages/landingPage';
 
 const Manage = loadableComponent(() => import('views/pages/manage'))
 const Login = loadableComponent(() => import('views/pages/login'))
@@ -47,7 +48,7 @@ function AllRoutes() {
           <Route path="/register" element={<Register />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/reset-password" element={<ResetPassword />} />
-          <Route path="*" >Cook</Route>
+          <Route path="/" exact element={<MainLayout component={LandingPage} />} />
         </Routes>
       </Suspense>
     </>
