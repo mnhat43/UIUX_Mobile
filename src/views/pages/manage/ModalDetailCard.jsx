@@ -54,7 +54,7 @@ const ModalDetailCard = (props) => {
                             style={{ maxWidth: 700, margin: '0 auto' }}
                             scrollToFirstError
                         >
-                            <Form.Item style={{ marginBottom: "10px" }}
+                            <Form.Item
                                 name="target"
                                 label={<p style={{ fontSize: "15px", fontWeight: "bold" }}>Mục tiêu</p>}
                             >
@@ -65,7 +65,7 @@ const ModalDetailCard = (props) => {
                                     30 bài đọc
                                 </div>
                             </Form.Item>
-                            <Form.Item style={{ marginBottom: "10px" }}
+                            <Form.Item
                                 name="status"
                                 label={<p style={{ fontSize: "15px", fontWeight: "bold" }}>Trạng thái</p>}
                             // rules={[{ required: true, message: 'Please select service!' }]}
@@ -79,7 +79,7 @@ const ModalDetailCard = (props) => {
                                     <Option value="status_3">Quá hạn</Option>
                                 </Select>
                             </Form.Item>
-                            <Form.Item style={{ marginBottom: "10px" }}
+                            <Form.Item
 
                                 name="type"
                                 label={<p style={{ fontSize: "15px", fontWeight: "bold" }}>Loại thẻ</p>}
@@ -98,7 +98,7 @@ const ModalDetailCard = (props) => {
                                 </Select>
                             </Form.Item>
 
-                            <Form.Item style={{ marginBottom: "10px" }}
+                            <Form.Item
 
                                 name="dealine"
                                 label={<p style={{ fontSize: "15px", fontWeight: "bold" }}>Hạn chót</p>}
@@ -106,7 +106,7 @@ const ModalDetailCard = (props) => {
                                 <div>08:30 AM - 30/05/2024</div>
                             </Form.Item>
 
-                            <Form.Item style={{ marginBottom: "10px" }}
+                            <Form.Item
 
                                 name="remind"
                                 label={<p style={{ fontSize: "15px", fontWeight: "bold" }}>Nhắc nhở</p>}
@@ -123,7 +123,7 @@ const ModalDetailCard = (props) => {
                                 </Select>
                             </Form.Item>
 
-                            <Form.Item style={{ marginBottom: "10px" }}
+                            <Form.Item
 
                                 name="description"
                                 label={<p style={{ fontSize: "15px", fontWeight: "bold" }}>Mô tả</p>}

@@ -26,14 +26,14 @@ function Register() {
   // const { setToken } = useAuth()
   const handleSubmit = async (dataUser) => {
     try {
-      navigate('/login')
+      navigate('/')
     } catch (error) {
       toast.error(error.response.data.message)
     }
   }
 
   const handleToLogin = () => {
-    navigate('/login')
+    navigate('/')
   }
 
   return (

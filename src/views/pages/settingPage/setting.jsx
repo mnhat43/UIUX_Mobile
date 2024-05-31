@@ -16,7 +16,7 @@ const Setting = () => {
     }
 
     const logout = () => {
-        navigate('/login')
+        navigate('/')
     }
 
     return (

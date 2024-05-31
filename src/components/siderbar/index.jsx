@@ -25,7 +25,7 @@ const SiderRender = (props) => {
   const { dark, setDark, handleDark } = useTheme();
 
   const handleLogout = () => {
-    navigate('/login');
+    navigate('/');
   };
 
 
