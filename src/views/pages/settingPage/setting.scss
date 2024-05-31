@@ -7,7 +7,7 @@
     margin: 20px;
     border-radius: 20px;
     background: transparent;
-    min-height: 718px;
+    min-height: 85vh;
     .setting-title {
         color: #209ea6;
         text-align: center;
@@ -44,7 +44,7 @@
                 }
             }
         }
-        button.ant-btn.css-dev-only-do-not-override-1kuana8.ant-btn-default {
+        .btnn {
             color: white !important;
             background: rgb(32, 158, 166) !important;
         }
@@ -56,7 +56,7 @@
 
     &.dark {
         // background: #161c1c;
-        button.ant-btn.css-dev-only-do-not-override-1kuana8.ant-btn-default {
+        .btnn {
             background: #146262 !important;
             color: white !important;
         }

@@ -66,7 +66,7 @@ const Setting = () => {
                                     <Form.Item className='form-item' style={{ marginTop: "20px" }}>
                                         <Button
                                             htmlType="submit"
-                                            className="btn-resetPw"
+                                            className="btnn"
                                             onClick={() => onFinish()}
                                         >
                                             Thay đổi mật khẩu
@@ -82,7 +82,7 @@ const Setting = () => {
                         </div>
                     </div>
                     <div className='setting-option' style={{ marginLeft: '20px' }}>
-                        <Button onClick={() => setIsOpenPW(!isOpenPW)}>{isOpenPW ? 'Hủy' : 'Đổi mật khẩu'}</Button>
+                        <Button className='btnn' onClick={() => setIsOpenPW(!isOpenPW)}>{isOpenPW ? 'Hủy' : 'Đổi mật khẩu'}</Button>
                     </div>
                 </div>
                 <div className='setting-item'>
@@ -138,7 +138,7 @@ const Setting = () => {
                     </div>
                 </div>
                 <div className='logout'>
-                    <Button onClick={() => logout()}>Đăng xuất</Button>
+                    <Button className='btnn' onClick={() => logout()}>Đăng xuất</Button>
                 </div>
 
             </div>

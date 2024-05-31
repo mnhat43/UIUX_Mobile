@@ -116,7 +116,7 @@ function Login() {
             htmlType="submit"
             className="login-form-button"
             onClick={() => handleSubmit()}
-            style={{ background: "#209EA6", height: "38px" }}
+            style={{ background: "#209EA6", height: '50px', width: '300px' }}
           >
             Đăng nhập
           </Button>
