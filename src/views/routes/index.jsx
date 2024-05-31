@@ -48,7 +48,7 @@ function AllRoutes() {
           <Route path="/register" element={<Register />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/reset-password" element={<ResetPassword />} />
-          <Route path="/" exact element={<MainLayout component={LandingPage} />} />
+          <Route path="/" exact element={<LandingPage />} />
         </Routes>
       </Suspense>
     </>

@@ -31,7 +31,6 @@ const Setting = () => {
                         <div className='text'>
                             <h4 style={{ marginBottom: '5px' }}>Mật khẩu</h4>
                             <p >Bạn nên dùng mật khẩu khó đoán để tăng tính bảo mật</p>
-
                             {
                                 isOpenPW &&
                                 <Form

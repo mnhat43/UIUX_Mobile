@@ -44,10 +44,11 @@
                 }
             }
         }
-        button.ant-btn.css-dev-only-do-not-override-1kuana8.ant-btn-default,
+        button.ant-btn.css-dev-only-do-not-override-1kuana8.ant-btn-default {
+            color: white !important;
+            background: rgb(32, 158, 166) !important;
+        }
         .ant-select-selector {
-            // background: #58d1c9;
-            // color: black;
             color: white;
             background: rgb(32, 158, 166);
         }
@@ -56,8 +57,8 @@
     &.dark {
         // background: #161c1c;
         button.ant-btn.css-dev-only-do-not-override-1kuana8.ant-btn-default {
-            background: #146262;
-            color: white;
+            background: #146262 !important;
+            color: white !important;
         }
         .form-item {
             color: white;

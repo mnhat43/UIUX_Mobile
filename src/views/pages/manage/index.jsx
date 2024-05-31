@@ -75,14 +75,9 @@ function Manage() {
     const [isModalAddOpen, setIsModalAddOpen] = useState(false);
     const [form] = Form.useForm();
     const onChange = (key) => {
-        console.log(key);
         setShow(false);
         setKeyItem(key);
     };
-    useEffect(() => {
-        setListCard(listCardDefault)
-    }, [listCard])
-
 
     const showModalAdd = () => {
         setIsModalAddOpen(true);
@@ -123,31 +118,6 @@ function Manage() {
                 </div>
                 <div className='row'>
                     <Tabs defaultActiveKey="1" items={items} onChange={onChange} />
-                    {/* {
-                        show === true ?
-                            <div className='col'>
-                                <div className='list-card'>
-                                    {
-                                        newList && newList.length > 0 &&
-                                        newList.map((item, index) => {
-                                            if (item.status === 'Đang tiến hành') {
-                                                return (
-                                                    <div key={index}>
-                                                        < CardCPN
-                                                            dataCard={item}
-                                                            removeCard={removeCard}
-                                                        />
-                                                    </div>
-                                                )
-                                            } else {
-                                                return null
-                                            }
-                                        })
-                                    }
-                                </div>
-                            </div>
-                            : null
-                    } */}
                     {
                         (
                             keyItem === '1' &&
