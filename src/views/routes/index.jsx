@@ -15,7 +15,7 @@ import HomePage from 'views/pages/homePage';
 import LandingPage from 'views/pages/landingPage';
 
 const Manage = loadableComponent(() => import('views/pages/manage'))
-const Login = loadableComponent(() => import('views/pages/login'))
+const Login = loadableComponent(() => import('views/pages/'))
 
 const PersonalInfo = loadableComponent(() => import('views/pages/personal-info'))
 
@@ -44,11 +44,11 @@ function AllRoutes() {
           <Route path="/schedule" element={<MainLayout component={Schedule} />} />
           <Route path="/manage-task" element={<MainLayout component={Manage} />} />
           <Route path="/personal-info" element={<MainLayout component={PersonalInfo} />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="/reset-password" element={<ResetPassword />} />
-          <Route path="/" exact element={<LandingPage />} />
+          {/* <Route path="/" exact element={<LandingPage />} /> */}
         </Routes>
       </Suspense>
     </>
