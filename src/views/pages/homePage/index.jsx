@@ -29,11 +29,12 @@ const HomePage = () => {
     return (
         <div className="homepage">
             <div className="homepage__content">
-                <div className='img-home'>
+                <div className='img-home' style={{ marginBottom: "50px" }}>
                     <Image
-                        style={{ width: '250px' }}
+                        style={{ width: '70vw' }}
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/9dbeef3522f9afe1a7bc243b498b029d0f9d19d0a808ff210df8a4599493b635?apiKey=10b1e221f97543f5b056ca1fc29636cb&"
                         alt="Descriptive alt text"
+                        preview={false}
                     />
                 </div>
 

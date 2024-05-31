@@ -31,28 +31,35 @@ const App = (props) => {
         }}
       >
         {/* <SiderRender theme={theme} /> */}
-        <Layout
+        {/* <Layout
           style={{
             // minHeight: '100vh',
             position: "relative",
             background: dark === "on" ? "#161c1c" : "white",
 
           }}
+        > */}
+        <Content
+          style={{
+            // padding: '16px 16px',
+            paddingTop: "70px",
+            // paddingLeft: "220px",
+            paddingBottom: "70px",
+            // background: dark === "on" ? "#1f1f1f" : "#ccc",
+          }}
         >
-          <Content
-            style={{
-              // padding: '16px 16px',
-              paddingTop: "70px",
-              // paddingLeft: "220px",
-              paddingBottom: "70px",
-              // background: dark === "on" ? "#1f1f1f" : "#ccc",
-            }}
-          >
-            <props.component />
-          </Content>
-        </Layout>
+          <props.component />
+        </Content>
+        {/* </Layout> */}
       </Layout>
-      <FooterRender />
+      <FooterRender
+      // style={{
+      //   position: "absolute",
+      //   bottom: 0,
+      //   right: 0,
+      //   left: 0
+      // }}
+      />
     </Layout>
   )
 }

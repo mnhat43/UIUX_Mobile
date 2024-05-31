@@ -1,12 +1,12 @@
 .header-wrapper {
-  width: 430px;
+  min-width: 100vw;
   position: fixed;
   top: 0;
   z-index: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
+  min-height: 80px;
   &.dark {
     .avatar {
       background-color: #113536;
@@ -61,13 +61,11 @@
   }
 
   &__right-side {
-    display: inline-flex;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
     height: 50px;
     display: flex;
-    align-items: center;
-
+    justify-content: space-between;
     &__username {
       display: inline-block;
       color: #fff;
@@ -143,4 +141,9 @@ header.ant-layout-header.header-wrapper.css-dev-only-do-not-override-1kuana8 {
 
 header.ant-layout-header.header-wrapper.css-dev-only-do-not-override-1kuana8 {
   height: 70px !important;
+}
+
+header.ant-layout-header.header-wrapper.css-dev-only-do-not-override-1kuana8 {
+  padding-left: 5vh;
+  padding-right: 3vh;
 }

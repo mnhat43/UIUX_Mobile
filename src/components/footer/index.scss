@@ -1,16 +1,18 @@
 .footer {
-    width: 400px;
-    height: 80px;
+    width: 90vw;
+    // height: 80px;
     border: 1px solid black;
     border-radius: 50px;
     // margin: 0 auto;
-    position: sticky;
+    position: fixed;
     bottom: 10px;
-    left: 16px;
+    left: 0;
+    right: 0;
     // right: 16px;
     z-index: 99;
     margin-bottom: 10px;
     // #113536;
+    margin: 5px 20px;
     .footer-content {
         background-color: white;
         display: flex;
@@ -19,6 +21,7 @@
         justify-content: space-around;
         gap: 20px;
         border-radius: 50px;
+
         .item {
             display: flex;
             justify-content: center;

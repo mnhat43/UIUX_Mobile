@@ -81,8 +81,9 @@ const HeaderRender = () => {
         alignContent: 'center',
         background: dark === "off" ? "white" : "#112123",
         borderBottom: "1px solid #ccc",
-        height: "50px",
-        width: "430px"
+        minHeigh: "50px",
+        width: "100vw",
+        gap: "20px"
       }}
     >
       <div className="header-wrapper__logo">
@@ -97,7 +98,7 @@ const HeaderRender = () => {
       </div>
 
       <div className="header-wrapper__right-side">
-        <div className="header-wrapper__right-side__bell" style={{ marginLeft: '50px' }}>
+        <div className="header-wrapper__right-side__bell" >
           <Popover content={contentNoti} title="Thông báo" trigger="click" style={{ color: "red" }}>
             <Badge count={4} overflowCount={10} size='default'>
               <BellOutlined
@@ -107,36 +108,6 @@ const HeaderRender = () => {
             </Badge>
           </Popover>
         </div>
-        {/*<div className="header-wrapper__right-side__profile" >
-          <Link to={'/personal-info'}>
-            <Avatar
-              className="avatar"
-              style={{ width: '35px', height: '35px' }}
-              size={40}
-              icon={<UserOutlined />}
-            />
-            <span style={{ paddingLeft: "5px" }} className='span-text'>Admin</span>
-          </Link>
-
-        </div>
-
-        
-
-        <div className="header-wrapper__right-side__question">
-          <Link to={'/help'}>
-            <QuestionCircleOutlined
-              className='iconnn'
-            />
-          </Link>
-        </div>
-        <div className="header-wrapper__right-side__setting">
-          <Link to={'/setting'}>
-            <SettingOutlined
-              className='iconnn'
-              style={{ fontSize: "20px" }}
-            />
-          </Link>
-        </div>*/}
       </div >
     </Header >
   )
