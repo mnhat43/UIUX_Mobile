@@ -1,0 +1,94 @@
+.setting-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    // border: 1px solid;
+    margin: 20px;
+    border-radius: 20px;
+    background: transparent;
+    min-height: 718px;
+    .setting-title {
+        color: #209ea6;
+        text-align: center;
+        font-family: "Work Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.64px;
+    }
+
+    .setting-content {
+        // padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .setting-item {
+            // background-color: #33bcb7;
+            border-radius: 10px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .text-info {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+
+                .logo {
+                    font-size: 20px;
+                }
+            }
+        }
+        button.ant-btn.css-dev-only-do-not-override-1kuana8.ant-btn-default,
+        .ant-select-selector {
+            // background: #58d1c9;
+            // color: black;
+            color: white;
+            background: rgb(32, 158, 166);
+        }
+    }
+
+    &.dark {
+        // background: #161c1c;
+        button.ant-btn.css-dev-only-do-not-override-1kuana8.ant-btn-default {
+            background: #146262;
+            color: white;
+        }
+        .form-item {
+            color: white;
+        }
+
+        .setting-title {
+            color: #b2f1e8;
+        }
+        .ant-select-selector {
+            background: #146262;
+            color: white;
+        }
+
+        .setting-content {
+            .setting-item {
+                background-color: #113536;
+                box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25);
+
+                .text-info {
+                    color: #e0e0e0;
+
+                    .logo {
+                        color: #80d0d3;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.logout {
+    display: flex;
+    justify-content: center;
+}

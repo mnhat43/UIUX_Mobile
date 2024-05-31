@@ -1,0 +1,135 @@
+.manage {
+    width: 430px;
+    height: 932px;
+    .content {
+        // padding: 30px;
+        // min-height: 70vh;
+        // padding: 10px 20px;
+        // border: 1px solid;
+        margin: 30px;
+        border-radius: 20px;
+        background: transparent;
+        // padding: 20px;
+        .manage-title {
+            color: #209ea6;
+            text-align: center;
+            font-family: "Work Sans";
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.64px;
+            margin-bottom: 15px;
+        }
+        .add {
+            // margin-bottom: 10px;
+            .btn-add-card {
+                font-family: "Work Sans";
+                color: white;
+                background: rgb(32, 158, 166);
+                width: 105px;
+                margin-left: 5px;
+                font-size: 13px;
+            }
+        }
+        .row {
+            // height: 100vh;
+            // width: 430px !important;
+            // display: flex;
+            // flex-direction: row;
+            // gap: 25px;
+            .col {
+                // box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
+                // background-color: #dcdcdc;
+                // border-radius: 15px;
+                // border: 1px solid #ccc;
+                width: 90%;
+                margin: 0 auto;
+                padding: 5px;
+                padding-bottom: 25px;
+                .title {
+                    background-color: #fff;
+                    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.3);
+                    border-radius: 5px;
+                    color: #209ea6;
+                    text-align: center;
+                    font-family: "Work Sans";
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 35px;
+                    letter-spacing: -0.64px;
+                    margin-bottom: 15px;
+                    margin: 0 30px;
+                }
+            }
+        }
+    }
+}
+
+.ant-modal-title {
+    font-size: 20px !important;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.ant-modal-header {
+    margin-bottom: 20px !important;
+}
+
+.modaladdcard {
+    position: absolute;
+    width: 420px !important;
+}
+
+.ant-modal-wrap.ant-modal-centered {
+    // position: absolute;
+    width: 430px !important;
+    // margin: 0 auto;
+}
+
+.ant-modal.css-dev-only-do-not-override-1kuana8 {
+    width: 430px !important;
+    // height: 932px;
+    overflow: hidden;
+}
+
+.ant-modal-content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px 30px !important;
+}
+
+.ant-form-item.css-dev-only-do-not-override-1kuana8 {
+    margin-bottom: 10px;
+}
+
+.ant-picker-datetime-panel {
+    height: 535px;
+    width: 280px;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+div#rc-tabs-7-tab-1,
+div#rc-tabs-7-tab-2,
+div#rc-tabs-7-tab-3 {
+    font-size: 16px;
+}
+
+.ant-picker-header-view {
+    display: none;
+}
+
+.ant-picker-body {
+    padding: 5px 10px;
+}
+
+.ant-picker-header {
+    display: none !important;
+}
+
+.ant-picker-datetime-panel {
+    margin-bottom: -44px;
+}

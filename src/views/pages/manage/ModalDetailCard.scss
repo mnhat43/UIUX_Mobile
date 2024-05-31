@@ -1,0 +1,76 @@
+.modall {
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    .modalDetail-content {
+        min-height: 65vh;
+        display: flex;
+        margin-top: -20px;
+        // width: 100%;
+
+        &__left {
+            width: 50%;
+            border-right: 1px solid #ccc;
+            padding-top: 10px;
+            padding-right: 10px;
+            .title {
+                font-size: 18px;
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+        &__right {
+            width: 50%;
+            padding-top: 10px;
+            .modalDetail-progress {
+                border-bottom: 1px solid #ccc;
+                // padding-left: -30px;
+                padding-left: 20px;
+
+                .title {
+                    font-size: 18px;
+                    font-weight: bold;
+                    text-align: center;
+                }
+                .list-task {
+                    .task-item {
+                        p {
+                            font-size: 15px;
+                            margin: 5px 0;
+                        }
+                        // width: 80%;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+            .modalDetail-cmt {
+                padding-left: 20px;
+                margin-top: 10px;
+                .title {
+                    font-size: 18px;
+                    font-weight: bold;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .modalbtn {
+        display: flex;
+        justify-content: end;
+    }
+}
+
+.ant-progress-bg {
+    height: 20px !important;
+}
+
+.ant-progress.ant-progress-status-active.ant-progress-line.ant-progress-show-info.ant-progress-default.css-dev-only-do-not-override-1kuana8 {
+    height: 30px !important ;
+}
+
+.ant-col.ant-form-item-label.ant-col-xs-24.ant-col-sm-6.css-dev-only-do-not-override-1kuana8 {
+    padding: 0;
+}

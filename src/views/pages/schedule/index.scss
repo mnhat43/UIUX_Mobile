@@ -1,0 +1,66 @@
+.schedule-container {
+    // background-color: white;
+    // padding: 20px;
+    // border: 1px solid;
+    margin: 30px;
+    border-radius: 20px;
+    background: transparent;
+
+    .schedule-title {
+        color: #209ea6;
+        text-align: center;
+        font-family: "Work Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.64px;
+        margin-bottom: 15px;
+    }
+
+    .schedule-content {
+        // box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
+        // padding: 20px;
+        // margin-top: 10px;
+        // background-color: transparent;
+    }
+}
+
+.calendar-todo-list {
+    text-align: left;
+    padding: 0;
+    list-style: none;
+}
+
+.calendar-todo-list li {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.calendar-todo-item-badge {
+    vertical-align: top;
+    margin-top: 8px;
+    width: 6px;
+    height: 6px;
+}
+
+.rs-calendar-body {
+    padding: 0 !important;
+}
+
+.rs-calendar-table-cell-content {
+    padding: 2px !important;
+}
+
+ul.calendar-todo-list {
+    // li:nth-last-child(n + 2) {
+    //     display: none;
+    // }
+
+    // li {
+    //     a {
+    //         display: none;
+    //     }
+    // }
+}

@@ -1,0 +1,132 @@
+.register-container {
+  width: 430px;
+  height: 932px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__sub {
+    width: 430px;
+    height: 932px;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    padding-top: 70px;
+    &__logo {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      img {
+        height: 30px;
+      }
+      .textLogo {
+        color: #4fe7fc;
+
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(173, 53, 47, 0.51);
+        font-family: "Wendy One";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: -1.08px;
+      }
+      .textLogo2 {
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: "Wendy One";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: -1.08px;
+      }
+    }
+    &__content {
+      width: 300px;
+      background-color: #fff;
+      border-radius: 20px;
+
+      &__left {
+        img {
+          height: 200px;
+        }
+      }
+      &__right {
+        &__form {
+          width: 300px;
+          &__header {
+            &__title {
+              font-size: 30px;
+              font-weight: 600;
+              margin-bottom: 8px;
+              text-align: center;
+            }
+            &__sub-title {
+              font-size: 0.75rem;
+              color: #666666;
+              margin: 20px 0;
+            }
+          }
+
+          .form-item {
+            .ant-form-item-required {
+              font-size: 14px;
+            }
+            .ant-form-item-explain-error {
+              font-size: 14px;
+            }
+          }
+        }
+
+        .to-login {
+          text-align: center;
+          margin-top: 20px;
+          font-size: 14px;
+
+          .login-link {
+            color: #09c4ae;
+            cursor: pointer;
+            &:hover {
+              opacity: 0.9;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.ant-col.ant-form-item-control.ant-col-xs-24.ant-col-xs-offset-0.ant-col-sm-16.ant-col-sm-offset-8.css-dev-only-do-not-override-1kuana8 {
+  margin: 0;
+}
+button.ant-btn.css-dev-only-do-not-override-1kuana8.ant-btn-primary.btn-register {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.select-container {
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.select-prefix-icon {
+  position: absolute !important;
+  left: 10px !important;
+  pointer-events: none !important;
+}
+
+.custom-select .ant-select-selector {
+  padding-left: 30px !important; /* Điều chỉnh padding để tránh chồng chéo với biểu tượng */
+  background: #f6f8fe !important;
+}
+
+.register-container__sub__content__form__header__title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  text-align: center;
+}
